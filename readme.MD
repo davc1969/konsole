@@ -2,7 +2,7 @@
 ### an easy way to give ife to *console.log* in the browser
 
 
-![Konsole demostration](konsole01.png = x300)
+![Konsole demostration]("./konsole01.png" = x300)
 
 You have 5 levels of information in this library:
 - ***log***: the same as the regular console.log

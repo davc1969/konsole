@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./konsole.css">
+    <title>Konsole  </title>
+</head>
+<body>
+    <h1>Konsole</h1>
+    <h2>A small library to format the console output in the browser using css</h2>
+    <div>
+        <h3>How to use it:</h3>
+        <p>In your javascript script:</p>
+        <ul>
+            <li>
+                <h4>konsole.log: <span>the original <strong>console.log</strong></span></h4>
+                <div class="code">
+                    <code>
+                        konsole.log("this is an original console.log command using Konsole library")
+                    </code>
+                </div>
+            </li>
+            <li>
+                <h4>konsole.notice: <span>a way to show some informartion that need to be emphasized but is not that important</span></h4>
+                <h5>black font on light green background</h5>
+                <div class="code">
+                    <code>
+                        konsole.notice("A NOTICE is for small pieces of information not that relevant")
+                    </code>
+                </div>
+            </li>
+            <li>
+                <h4>konsole.info: <span>if you want to show important information on the console</span></h4>
+                <h5>white font on blue background</h5>
+                <div class="code">
+                    <code>
+                        konsole.info("Information:\n", "just keep and eye on this message, it could be important")
+                    </code>
+                </div>
+            </li>
+            <li>
+                <h4>konsole.warning: <span>Alert, something is happening</span></h4>
+                <h5>black font on yellow background</h5>
+                <div class="code">
+                    <code>
+                        konsole.warning("WARNING: a potential problem or a very important information is here")
+                    </code>
+                </div>
+            </li>
+            <li>
+                <h4>konsole.error: <span>Houston, we have a problem!</span></h4>
+                <h5>white bold font on red background</h5>
+                <div class="code">
+                    <code>
+                        konsole.warning("WARNING: a potential problem or a very important information is here")
+                    </code>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <h6>library created by Darío Valenzuela, June 2022</h6>
+    </footer>
+    <script type='module' src="./testKonsole.js"></script>
+</body>
+</html>
